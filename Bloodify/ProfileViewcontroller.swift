@@ -9,9 +9,16 @@
 import UIKit
 
 class ProfileViewcontroller: UIViewController {
+    
+    required init?(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)
+        tabBarItem = UITabBarItem(title: "", image: UIImage(named: "1976053-32"), tag: 5)
+    }
+    
     @IBOutlet weak var nom: UILabel!
     
-    @IBAction func logout(_ sender: UIButton) {
+    @IBAction func Logout(_ sender: UIButton) {
+  
         //removing values from default
         UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
         UserDefaults.standard.synchronize()
@@ -25,8 +32,8 @@ class ProfileViewcontroller: UIViewController {
         super.viewDidLoad()
         
         //hiding back button
-        let backButton = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: navigationController, action: nil)
-        navigationItem.leftBarButtonItem = backButton
+        /*let backButton = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: navigationController, action: nil)
+        navigationItem.leftBarButtonItem = backButton*/
         //getting user data from defaults
         let defaultValues = UserDefaults.standard
         if let name = defaultValues.string(forKey: "nom"){
@@ -50,5 +57,6 @@ class ProfileViewcontroller: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    
 }

@@ -10,6 +10,10 @@
 		32131DD521963F0C00E3CF9C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32131DD421963F0C00E3CF9C /* RegisterViewController.swift */; };
 		32131DD721963F9E00E3CF9C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32131DD621963F9E00E3CF9C /* SignInViewController.swift */; };
 		3277D6E221979CDC008C9CCF /* ProfileViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3277D6E121979CDC008C9CCF /* ProfileViewcontroller.swift */; };
+		3282B21F2198B96600F37D38 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282B21E2198B96500F37D38 /* TipsViewController.swift */; };
+		3282B2232198B9DA00F37D38 /* AcceuilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282B2222198B9DA00F37D38 /* AcceuilViewController.swift */; };
+		3282B2252198B9FD00F37D38 /* MsgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282B2242198B9FD00F37D38 /* MsgViewController.swift */; };
+		3282B2272198BA1600F37D38 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282B2262198BA1600F37D38 /* BankViewController.swift */; };
 		32D892EC21921B3E00E90CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D892EB21921B3E00E90CD9 /* AppDelegate.swift */; };
 		32D892EE21921B3E00E90CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D892ED21921B3E00E90CD9 /* ViewController.swift */; };
 		32D892F121921B3E00E90CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D892EF21921B3E00E90CD9 /* Main.storyboard */; };
@@ -47,6 +51,10 @@
 		32131DD421963F0C00E3CF9C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		32131DD621963F9E00E3CF9C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		3277D6E121979CDC008C9CCF /* ProfileViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewcontroller.swift; sourceTree = "<group>"; };
+		3282B21E2198B96500F37D38 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		3282B2222198B9DA00F37D38 /* AcceuilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilViewController.swift; sourceTree = "<group>"; };
+		3282B2242198B9FD00F37D38 /* MsgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgViewController.swift; sourceTree = "<group>"; };
+		3282B2262198BA1600F37D38 /* BankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
 		32D892E821921B3E00E90CD9 /* Bloodify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloodify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D892EB21921B3E00E90CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D892ED21921B3E00E90CD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +153,10 @@
 				32131DD621963F9E00E3CF9C /* SignInViewController.swift */,
 				32DB1BA12197829B0059E589 /* signupViewController.swift */,
 				3277D6E121979CDC008C9CCF /* ProfileViewcontroller.swift */,
+				3282B21E2198B96500F37D38 /* TipsViewController.swift */,
+				3282B2222198B9DA00F37D38 /* AcceuilViewController.swift */,
+				3282B2242198B9FD00F37D38 /* MsgViewController.swift */,
+				3282B2262198BA1600F37D38 /* BankViewController.swift */,
 			);
 			path = Bloodify;
 			sourceTree = "<group>";
@@ -408,10 +420,14 @@
 			files = (
 				32D892EE21921B3E00E90CD9 /* ViewController.swift in Sources */,
 				3277D6E221979CDC008C9CCF /* ProfileViewcontroller.swift in Sources */,
+				3282B2252198B9FD00F37D38 /* MsgViewController.swift in Sources */,
+				3282B21F2198B96600F37D38 /* TipsViewController.swift in Sources */,
 				32D892F421921B3E00E90CD9 /* Bloodify.xcdatamodeld in Sources */,
 				32D892EC21921B3E00E90CD9 /* AppDelegate.swift in Sources */,
 				32131DD721963F9E00E3CF9C /* SignInViewController.swift in Sources */,
 				32DB1BA22197829B0059E589 /* signupViewController.swift in Sources */,
+				3282B2232198B9DA00F37D38 /* AcceuilViewController.swift in Sources */,
+				3282B2272198BA1600F37D38 /* BankViewController.swift in Sources */,
 				32131DD521963F0C00E3CF9C /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
