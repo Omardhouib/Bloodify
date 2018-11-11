@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32131DD521963F0C00E3CF9C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32131DD421963F0C00E3CF9C /* RegisterViewController.swift */; };
+		32131DD721963F9E00E3CF9C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32131DD621963F9E00E3CF9C /* SignInViewController.swift */; };
+		3277D6E221979CDC008C9CCF /* ProfileViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3277D6E121979CDC008C9CCF /* ProfileViewcontroller.swift */; };
 		32D892EC21921B3E00E90CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D892EB21921B3E00E90CD9 /* AppDelegate.swift */; };
 		32D892EE21921B3E00E90CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D892ED21921B3E00E90CD9 /* ViewController.swift */; };
 		32D892F121921B3E00E90CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D892EF21921B3E00E90CD9 /* Main.storyboard */; };
@@ -15,6 +18,10 @@
 		32D892F921921B4200E90CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D892F721921B4200E90CD9 /* LaunchScreen.storyboard */; };
 		32D8930421921B4200E90CD9 /* BloodifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D8930321921B4200E90CD9 /* BloodifyTests.swift */; };
 		32D8930F21921B4200E90CD9 /* BloodifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D8930E21921B4200E90CD9 /* BloodifyUITests.swift */; };
+		32DB1BA22197829B0059E589 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB1BA12197829B0059E589 /* signupViewController.swift */; };
+		70CBF5B7AD212B0037F45355 /* Pods_Bloodify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6F5DF9F2BDC968E67D1BF9 /* Pods_Bloodify.framework */; };
+		8842A6AC335D40C910A5EC1B /* Pods_BloodifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD3F5ED665D07B697AB21D6 /* Pods_BloodifyUITests.framework */; };
+		8BB73C0CAB8FF19246DC52E1 /* Pods_BloodifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341EB90A220B0C28340C1F26 /* Pods_BloodifyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06BA69B47C11930658524BD5 /* Pods-Bloodify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloodify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bloodify/Pods-Bloodify.release.xcconfig"; sourceTree = "<group>"; };
+		07124716173459824EEEA242 /* Pods-BloodifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodifyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloodifyUITests/Pods-BloodifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32131DD421963F0C00E3CF9C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		32131DD621963F9E00E3CF9C /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3277D6E121979CDC008C9CCF /* ProfileViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewcontroller.swift; sourceTree = "<group>"; };
 		32D892E821921B3E00E90CD9 /* Bloodify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloodify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D892EB21921B3E00E90CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D892ED21921B3E00E90CD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,14 @@
 		32D8930A21921B4200E90CD9 /* BloodifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D8930E21921B4200E90CD9 /* BloodifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodifyUITests.swift; sourceTree = "<group>"; };
 		32D8931021921B4200E90CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32DB1BA12197829B0059E589 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		341EB90A220B0C28340C1F26 /* Pods_BloodifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3741BFC0A23B9CDAABD30F5F /* Pods-BloodifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloodifyTests/Pods-BloodifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A6F5DF9F2BDC968E67D1BF9 /* Pods_Bloodify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bloodify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AFCF9005124219855D69EF /* Pods-BloodifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodifyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodifyUITests/Pods-BloodifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		754C0C70B00E3ADE847424A2 /* Pods-Bloodify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloodify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bloodify/Pods-Bloodify.debug.xcconfig"; sourceTree = "<group>"; };
+		7FD3F5ED665D07B697AB21D6 /* Pods_BloodifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A689FC525D71D2B208F5010E /* Pods-BloodifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodifyTests/Pods-BloodifyTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CBF5B7AD212B0037F45355 /* Pods_Bloodify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BB73C0CAB8FF19246DC52E1 /* Pods_BloodifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8842A6AC335D40C910A5EC1B /* Pods_BloodifyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EDB8A25E3466C0925784D03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A6F5DF9F2BDC968E67D1BF9 /* Pods_Bloodify.framework */,
+				341EB90A220B0C28340C1F26 /* Pods_BloodifyTests.framework */,
+				7FD3F5ED665D07B697AB21D6 /* Pods_BloodifyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		32D892DF21921B3E00E90CD9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +116,8 @@
 				32D8930221921B4200E90CD9 /* BloodifyTests */,
 				32D8930D21921B4200E90CD9 /* BloodifyUITests */,
 				32D892E921921B3E00E90CD9 /* Products */,
+				936C86FF91C87EDA5C9FAE3E /* Pods */,
+				2EDB8A25E3466C0925784D03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +141,10 @@
 				32D892F721921B4200E90CD9 /* LaunchScreen.storyboard */,
 				32D892FA21921B4200E90CD9 /* Info.plist */,
 				32D892F221921B3E00E90CD9 /* Bloodify.xcdatamodeld */,
+				32131DD421963F0C00E3CF9C /* RegisterViewController.swift */,
+				32131DD621963F9E00E3CF9C /* SignInViewController.swift */,
+				32DB1BA12197829B0059E589 /* signupViewController.swift */,
+				3277D6E121979CDC008C9CCF /* ProfileViewcontroller.swift */,
 			);
 			path = Bloodify;
 			sourceTree = "<group>";
@@ -128,6 +167,19 @@
 			path = BloodifyUITests;
 			sourceTree = "<group>";
 		};
+		936C86FF91C87EDA5C9FAE3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				754C0C70B00E3ADE847424A2 /* Pods-Bloodify.debug.xcconfig */,
+				06BA69B47C11930658524BD5 /* Pods-Bloodify.release.xcconfig */,
+				A689FC525D71D2B208F5010E /* Pods-BloodifyTests.debug.xcconfig */,
+				3741BFC0A23B9CDAABD30F5F /* Pods-BloodifyTests.release.xcconfig */,
+				51AFCF9005124219855D69EF /* Pods-BloodifyUITests.debug.xcconfig */,
+				07124716173459824EEEA242 /* Pods-BloodifyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32D8931321921B4200E90CD9 /* Build configuration list for PBXNativeTarget "Bloodify" */;
 			buildPhases = (
+				09E09857CA8CB16168FE26F9 /* [CP] Check Pods Manifest.lock */,
 				32D892E421921B3E00E90CD9 /* Sources */,
 				32D892E521921B3E00E90CD9 /* Frameworks */,
 				32D892E621921B3E00E90CD9 /* Resources */,
+				A4888B5E2C96C17DA3CEA9AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32D8931621921B4200E90CD9 /* Build configuration list for PBXNativeTarget "BloodifyTests" */;
 			buildPhases = (
+				90E9B6A24AE6E190CB6A1472 /* [CP] Check Pods Manifest.lock */,
 				32D892FB21921B4200E90CD9 /* Sources */,
 				32D892FC21921B4200E90CD9 /* Frameworks */,
 				32D892FD21921B4200E90CD9 /* Resources */,
@@ -170,6 +225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32D8931921921B4200E90CD9 /* Build configuration list for PBXNativeTarget "BloodifyUITests" */;
 			buildPhases = (
+				99880F4C67CFF67D4F41919F /* [CP] Check Pods Manifest.lock */,
 				32D8930621921B4200E90CD9 /* Sources */,
 				32D8930721921B4200E90CD9 /* Frameworks */,
 				32D8930821921B4200E90CD9 /* Resources */,
@@ -254,14 +310,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09E09857CA8CB16168FE26F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bloodify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E9B6A24AE6E190CB6A1472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BloodifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99880F4C67CFF67D4F41919F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BloodifyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4888B5E2C96C17DA3CEA9AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bloodify/Pods-Bloodify-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bloodify/Pods-Bloodify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32D892E421921B3E00E90CD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				32D892EE21921B3E00E90CD9 /* ViewController.swift in Sources */,
+				3277D6E221979CDC008C9CCF /* ProfileViewcontroller.swift in Sources */,
 				32D892F421921B3E00E90CD9 /* Bloodify.xcdatamodeld in Sources */,
 				32D892EC21921B3E00E90CD9 /* AppDelegate.swift in Sources */,
+				32131DD721963F9E00E3CF9C /* SignInViewController.swift in Sources */,
+				32DB1BA22197829B0059E589 /* signupViewController.swift in Sources */,
+				32131DD521963F0C00E3CF9C /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,9 +585,12 @@
 		};
 		32D8931421921B4200E90CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754C0C70B00E3ADE847424A2 /* Pods-Bloodify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bloodify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -444,6 +598,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "omar-dhouib.Bloodify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,9 +606,12 @@
 		};
 		32D8931521921B4200E90CD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06BA69B47C11930658524BD5 /* Pods-Bloodify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bloodify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,6 +619,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "omar-dhouib.Bloodify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +627,7 @@
 		};
 		32D8931721921B4200E90CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A689FC525D71D2B208F5010E /* Pods-BloodifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +648,7 @@
 		};
 		32D8931821921B4200E90CD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3741BFC0A23B9CDAABD30F5F /* Pods-BloodifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +669,7 @@
 		};
 		32D8931A21921B4200E90CD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AFCF9005124219855D69EF /* Pods-BloodifyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +689,7 @@
 		};
 		32D8931B21921B4200E90CD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07124716173459824EEEA242 /* Pods-BloodifyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
