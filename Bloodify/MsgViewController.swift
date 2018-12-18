@@ -9,7 +9,10 @@
 import UIKit
 
 class MsgViewController: UIViewController {
-
+    required init?(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)
+        tabBarItem = UITabBarItem(title: "", image: UIImage(named: "3741747-32"), tag: 2)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

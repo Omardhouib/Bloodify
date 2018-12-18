@@ -37,7 +37,7 @@ class RegisterViewController: UIViewController {
      print("hiiiiiiiiiiiiiiiiiiii")
         
         //Defined a constant that holds the URL for our web service
-        let URL_USER_REGISTER = "http://192.168.136.128:8888/register.php"
+        let URL_USER_REGISTER = "http://192.168.70.129:8888/register.php"
         
         //View variables
        

@@ -37,7 +37,7 @@ class signupViewController: UIViewController {
             return
         }
         
-        let URL_USER_REGISTER = "http://192.168.136.128:8888/register.php"
+        let URL_USER_REGISTER = "http://192.168.70.129:8888/register.php"
         
         //View variables
         

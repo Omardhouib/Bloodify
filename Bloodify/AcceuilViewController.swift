@@ -9,7 +9,10 @@
 import UIKit
 
 class AcceuilViewController: UIViewController {
-
+    required init?(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)
+        tabBarItem = UITabBarItem(title: "", image: UIImage(named: "1976053-32"), tag: 1)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

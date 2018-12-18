@@ -9,7 +9,10 @@
 import UIKit
 
 class BankViewController: UIViewController {
-
+    required init?(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)
+        tabBarItem = UITabBarItem(title: "", image: UIImage(named: "2415604-32"), tag: 4)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

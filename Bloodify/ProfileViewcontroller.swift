@@ -10,14 +10,20 @@ import UIKit
 
 class ProfileViewcontroller: UIViewController {
     
-    required init?(coder aDecoder: NSCoder){
+   required init?(coder aDecoder: NSCoder){
         super.init(coder: aDecoder)
-        tabBarItem = UITabBarItem(title: "", image: UIImage(named: "1976053-32"), tag: 5)
+        tabBarItem = UITabBarItem(title: "", image: UIImage(named: "3708111-32"), tag: 5)
     }
     
-    @IBOutlet weak var nom: UILabel!
     
+    
+    
+    @IBOutlet weak var prenom: UILabel!
+    
+    @IBOutlet weak var nom: UILabel!
     @IBAction func Logout(_ sender: UIButton) {
+    
+    
   
         //removing values from default
         UserDefaults.standard.removePersistentDomain(forName: Bundle.main.bundleIdentifier!)
@@ -32,18 +38,18 @@ class ProfileViewcontroller: UIViewController {
         super.viewDidLoad()
         
         //hiding back button
-        /*let backButton = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: navigationController, action: nil)
+      /* let backButton = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: navigationController, action: nil)
         navigationItem.leftBarButtonItem = backButton*/
         //getting user data from defaults
         let defaultValues = UserDefaults.standard
-        if let name = defaultValues.string(forKey: "nom"){
+        let name = defaultValues.string(forKey: "nom")
             //setting the name to label
             nom.text = name
-        }else{
-            //send back to login view controller
-        }
-        
-
+        let prename = defaultValues.string(forKey: "prenom")
+        //setting the prename to label
+        prenom.text = prename
+       
+       
         // Do any additional setup after loading the view.
     }
     

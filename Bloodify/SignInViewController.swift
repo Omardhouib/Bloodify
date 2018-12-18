@@ -13,7 +13,7 @@ class SignInViewController: UIViewController {
 
     //The login script url make sure to write the ip instead of localhost
     //you can get the ip using ifconfig command in terminal
-    let URL_USER_LOGIN = "http://192.168.136.128:8888/login.php"
+    let URL_USER_LOGIN = "http://192.168.70.129:8888/login.php"
     
     //the defaultvalues to store user data
     let defaultValues = UserDefaults.standard
@@ -30,7 +30,7 @@ class SignInViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         //if user is already logged in switching to profile screen
-        if defaultValues.string(forKey: "Email") != nil{
+       if defaultValues.string(forKey: "Email") != nil{
             let profileViewController = self.storyboard?.instantiateViewController(withIdentifier: "ProfileViewcontroller") as! ProfileViewcontroller
             self.navigationController?.pushViewController(profileViewController, animated: true)
             
@@ -91,10 +91,10 @@ class SignInViewController: UIViewController {
                         self.defaultValues.set(password, forKey: "password")
                         
                         //switching the screen
-                        let profileViewController = self.storyboard?.instantiateViewController(withIdentifier: "ProfileViewcontroller") as! ProfileViewcontroller
+                       /* let profileViewController = self.storyboard?.instantiateViewController(withIdentifier: "ProfileViewcontroller") as! ProfileViewcontroller
                         self.navigationController?.pushViewController(profileViewController, animated: true)
                         
-                        self.dismiss(animated: false, completion: nil)
+                        self.dismiss(animated: false, completion: nil)*/
                     }else{
                         //error message in case of invalid credential
                         

@@ -9,7 +9,10 @@
 import UIKit
 
 class TipsViewController: UIViewController {
-
+    required init?(coder aDecoder: NSCoder){
+        super.init(coder: aDecoder)
+        tabBarItem = UITabBarItem(title: "", image: UIImage(named: "2202250-32"), tag: 3)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

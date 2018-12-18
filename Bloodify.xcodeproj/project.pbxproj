@@ -13,7 +13,7 @@
 		3282B21F2198B96600F37D38 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282B21E2198B96500F37D38 /* TipsViewController.swift */; };
 		3282B2232198B9DA00F37D38 /* AcceuilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282B2222198B9DA00F37D38 /* AcceuilViewController.swift */; };
 		3282B2252198B9FD00F37D38 /* MsgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282B2242198B9FD00F37D38 /* MsgViewController.swift */; };
-		3282B2272198BA1600F37D38 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3282B2262198BA1600F37D38 /* BankViewController.swift */; };
+		329F5BB921C94A74008AAAC8 /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329F5BB821C94A73008AAAC8 /* Cafe.swift */; };
 		32D892EC21921B3E00E90CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D892EB21921B3E00E90CD9 /* AppDelegate.swift */; };
 		32D892EE21921B3E00E90CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D892ED21921B3E00E90CD9 /* ViewController.swift */; };
 		32D892F121921B3E00E90CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D892EF21921B3E00E90CD9 /* Main.storyboard */; };
@@ -23,6 +23,30 @@
 		32D8930421921B4200E90CD9 /* BloodifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D8930321921B4200E90CD9 /* BloodifyTests.swift */; };
 		32D8930F21921B4200E90CD9 /* BloodifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D8930E21921B4200E90CD9 /* BloodifyUITests.swift */; };
 		32DB1BA22197829B0059E589 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DB1BA12197829B0059E589 /* signupViewController.swift */; };
+		54AFA8F521BEA322006F3DA9 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA8F321BEA322006F3DA9 /* UIColor+Ext.swift */; };
+		54AFA8F621BEA322006F3DA9 /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA8F421BEA322006F3DA9 /* UINavigationController+Ext.swift */; };
+		54AFA90421BEA362006F3DA9 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA8F921BEA361006F3DA9 /* OFL.txt */; };
+		54AFA90521BEA362006F3DA9 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA8FA21BEA361006F3DA9 /* Rubik-Black.ttf */; };
+		54AFA90621BEA362006F3DA9 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA8FB21BEA361006F3DA9 /* Rubik-BlackItalic.ttf */; };
+		54AFA90721BEA362006F3DA9 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA8FC21BEA361006F3DA9 /* Rubik-Bold.ttf */; };
+		54AFA90821BEA362006F3DA9 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA8FD21BEA361006F3DA9 /* Rubik-BoldItalic.ttf */; };
+		54AFA90921BEA362006F3DA9 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA8FE21BEA361006F3DA9 /* Rubik-Italic.ttf */; };
+		54AFA90A21BEA362006F3DA9 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA8FF21BEA361006F3DA9 /* Rubik-Light.ttf */; };
+		54AFA90B21BEA362006F3DA9 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA90021BEA361006F3DA9 /* Rubik-LightItalic.ttf */; };
+		54AFA90C21BEA362006F3DA9 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA90121BEA361006F3DA9 /* Rubik-Medium.ttf */; };
+		54AFA90D21BEA362006F3DA9 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA90221BEA361006F3DA9 /* Rubik-MediumItalic.ttf */; };
+		54AFA90E21BEA362006F3DA9 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54AFA90321BEA361006F3DA9 /* Rubik-Regular.ttf */; };
+		54AFA91C21BEA392006F3DA9 /* CafeDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA91621BEA391006F3DA9 /* CafeDetailHeaderView.swift */; };
+		54AFA91D21BEA392006F3DA9 /* CafeDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA91721BEA391006F3DA9 /* CafeDetailIconTextCell.swift */; };
+		54AFA91E21BEA392006F3DA9 /* CafeDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA91821BEA391006F3DA9 /* CafeDetailMapCell.swift */; };
+		54AFA91F21BEA392006F3DA9 /* CafeDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA91921BEA391006F3DA9 /* CafeDetailSeparatorCell.swift */; };
+		54AFA92021BEA392006F3DA9 /* CafeDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA91A21BEA391006F3DA9 /* CafeDetailTextCell.swift */; };
+		54AFA92121BEA392006F3DA9 /* CafeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA91B21BEA391006F3DA9 /* CafeTableViewCell.swift */; };
+		54AFA92821BEA3B6006F3DA9 /* CafeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA92421BEA3B5006F3DA9 /* CafeDetailViewController.swift */; };
+		54AFA92921BEA3B6006F3DA9 /* CafeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA92521BEA3B5006F3DA9 /* CafeTableViewController.swift */; };
+		54AFA92A21BEA3B6006F3DA9 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA92621BEA3B5006F3DA9 /* CallViewController.swift */; };
+		54AFA92B21BEA3B6006F3DA9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFA92721BEA3B5006F3DA9 /* MapViewController.swift */; };
+		54AFA92D21BEA3C4006F3DA9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AFA92C21BEA3C4006F3DA9 /* MapKit.framework */; };
 		70CBF5B7AD212B0037F45355 /* Pods_Bloodify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6F5DF9F2BDC968E67D1BF9 /* Pods_Bloodify.framework */; };
 		8842A6AC335D40C910A5EC1B /* Pods_BloodifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD3F5ED665D07B697AB21D6 /* Pods_BloodifyUITests.framework */; };
 		8BB73C0CAB8FF19246DC52E1 /* Pods_BloodifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341EB90A220B0C28340C1F26 /* Pods_BloodifyTests.framework */; };
@@ -54,7 +78,7 @@
 		3282B21E2198B96500F37D38 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
 		3282B2222198B9DA00F37D38 /* AcceuilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceuilViewController.swift; sourceTree = "<group>"; };
 		3282B2242198B9FD00F37D38 /* MsgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgViewController.swift; sourceTree = "<group>"; };
-		3282B2262198BA1600F37D38 /* BankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
+		329F5BB821C94A73008AAAC8 /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
 		32D892E821921B3E00E90CD9 /* Bloodify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bloodify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D892EB21921B3E00E90CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32D892ED21921B3E00E90CD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +98,30 @@
 		3741BFC0A23B9CDAABD30F5F /* Pods-BloodifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodifyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BloodifyTests/Pods-BloodifyTests.release.xcconfig"; sourceTree = "<group>"; };
 		3A6F5DF9F2BDC968E67D1BF9 /* Pods_Bloodify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bloodify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51AFCF9005124219855D69EF /* Pods-BloodifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodifyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodifyUITests/Pods-BloodifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54AFA8F321BEA322006F3DA9 /* UIColor+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		54AFA8F421BEA322006F3DA9 /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
+		54AFA8F921BEA361006F3DA9 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		54AFA8FA21BEA361006F3DA9 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		54AFA8FB21BEA361006F3DA9 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		54AFA8FC21BEA361006F3DA9 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		54AFA8FD21BEA361006F3DA9 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		54AFA8FE21BEA361006F3DA9 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		54AFA8FF21BEA361006F3DA9 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		54AFA90021BEA361006F3DA9 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		54AFA90121BEA361006F3DA9 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		54AFA90221BEA361006F3DA9 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		54AFA90321BEA361006F3DA9 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		54AFA91621BEA391006F3DA9 /* CafeDetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeDetailHeaderView.swift; sourceTree = "<group>"; };
+		54AFA91721BEA391006F3DA9 /* CafeDetailIconTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeDetailIconTextCell.swift; sourceTree = "<group>"; };
+		54AFA91821BEA391006F3DA9 /* CafeDetailMapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeDetailMapCell.swift; sourceTree = "<group>"; };
+		54AFA91921BEA391006F3DA9 /* CafeDetailSeparatorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeDetailSeparatorCell.swift; sourceTree = "<group>"; };
+		54AFA91A21BEA391006F3DA9 /* CafeDetailTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeDetailTextCell.swift; sourceTree = "<group>"; };
+		54AFA91B21BEA391006F3DA9 /* CafeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeTableViewCell.swift; sourceTree = "<group>"; };
+		54AFA92421BEA3B5006F3DA9 /* CafeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeDetailViewController.swift; sourceTree = "<group>"; };
+		54AFA92521BEA3B5006F3DA9 /* CafeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeTableViewController.swift; sourceTree = "<group>"; };
+		54AFA92621BEA3B5006F3DA9 /* CallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		54AFA92721BEA3B5006F3DA9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		54AFA92C21BEA3C4006F3DA9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		754C0C70B00E3ADE847424A2 /* Pods-Bloodify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bloodify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bloodify/Pods-Bloodify.debug.xcconfig"; sourceTree = "<group>"; };
 		7FD3F5ED665D07B697AB21D6 /* Pods_BloodifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A689FC525D71D2B208F5010E /* Pods-BloodifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodifyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BloodifyTests/Pods-BloodifyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54AFA92D21BEA3C4006F3DA9 /* MapKit.framework in Frameworks */,
 				70CBF5B7AD212B0037F45355 /* Pods_Bloodify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +159,7 @@
 		2EDB8A25E3466C0925784D03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54AFA92C21BEA3C4006F3DA9 /* MapKit.framework */,
 				3A6F5DF9F2BDC968E67D1BF9 /* Pods_Bloodify.framework */,
 				341EB90A220B0C28340C1F26 /* Pods_BloodifyTests.framework */,
 				7FD3F5ED665D07B697AB21D6 /* Pods_BloodifyUITests.framework */,
@@ -142,10 +192,14 @@
 		32D892EA21921B3E00E90CD9 /* Bloodify */ = {
 			isa = PBXGroup;
 			children = (
+				54AFA92321BEA3B5006F3DA9 /* Controller */,
+				54AFA91521BEA391006F3DA9 /* View */,
+				54AFA8F721BEA360006F3DA9 /* Resources */,
+				32D892F521921B4200E90CD9 /* Assets.xcassets */,
+				54AFA8F221BEA322006F3DA9 /* Extensions */,
 				32D892EB21921B3E00E90CD9 /* AppDelegate.swift */,
 				32D892ED21921B3E00E90CD9 /* ViewController.swift */,
 				32D892EF21921B3E00E90CD9 /* Main.storyboard */,
-				32D892F521921B4200E90CD9 /* Assets.xcassets */,
 				32D892F721921B4200E90CD9 /* LaunchScreen.storyboard */,
 				32D892FA21921B4200E90CD9 /* Info.plist */,
 				32D892F221921B3E00E90CD9 /* Bloodify.xcdatamodeld */,
@@ -156,7 +210,7 @@
 				3282B21E2198B96500F37D38 /* TipsViewController.swift */,
 				3282B2222198B9DA00F37D38 /* AcceuilViewController.swift */,
 				3282B2242198B9FD00F37D38 /* MsgViewController.swift */,
-				3282B2262198BA1600F37D38 /* BankViewController.swift */,
+				329F5BB821C94A73008AAAC8 /* Cafe.swift */,
 			);
 			path = Bloodify;
 			sourceTree = "<group>";
@@ -177,6 +231,69 @@
 				32D8931021921B4200E90CD9 /* Info.plist */,
 			);
 			path = BloodifyUITests;
+			sourceTree = "<group>";
+		};
+		54AFA8F221BEA322006F3DA9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				54AFA8F321BEA322006F3DA9 /* UIColor+Ext.swift */,
+				54AFA8F421BEA322006F3DA9 /* UINavigationController+Ext.swift */,
+			);
+			name = Extensions;
+			path = ../../Cafegram2EN/Cafegram2EN/Extensions;
+			sourceTree = "<group>";
+		};
+		54AFA8F721BEA360006F3DA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				54AFA8F821BEA361006F3DA9 /* Fonts */,
+			);
+			name = Resources;
+			path = ../../Cafegram2EN/Cafegram2EN/Resources;
+			sourceTree = "<group>";
+		};
+		54AFA8F821BEA361006F3DA9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				54AFA8F921BEA361006F3DA9 /* OFL.txt */,
+				54AFA8FA21BEA361006F3DA9 /* Rubik-Black.ttf */,
+				54AFA8FB21BEA361006F3DA9 /* Rubik-BlackItalic.ttf */,
+				54AFA8FC21BEA361006F3DA9 /* Rubik-Bold.ttf */,
+				54AFA8FD21BEA361006F3DA9 /* Rubik-BoldItalic.ttf */,
+				54AFA8FE21BEA361006F3DA9 /* Rubik-Italic.ttf */,
+				54AFA8FF21BEA361006F3DA9 /* Rubik-Light.ttf */,
+				54AFA90021BEA361006F3DA9 /* Rubik-LightItalic.ttf */,
+				54AFA90121BEA361006F3DA9 /* Rubik-Medium.ttf */,
+				54AFA90221BEA361006F3DA9 /* Rubik-MediumItalic.ttf */,
+				54AFA90321BEA361006F3DA9 /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		54AFA91521BEA391006F3DA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54AFA91621BEA391006F3DA9 /* CafeDetailHeaderView.swift */,
+				54AFA91721BEA391006F3DA9 /* CafeDetailIconTextCell.swift */,
+				54AFA91821BEA391006F3DA9 /* CafeDetailMapCell.swift */,
+				54AFA91921BEA391006F3DA9 /* CafeDetailSeparatorCell.swift */,
+				54AFA91A21BEA391006F3DA9 /* CafeDetailTextCell.swift */,
+				54AFA91B21BEA391006F3DA9 /* CafeTableViewCell.swift */,
+			);
+			name = View;
+			path = ../../Cafegram2EN/Cafegram2EN/View;
+			sourceTree = "<group>";
+		};
+		54AFA92321BEA3B5006F3DA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54AFA92421BEA3B5006F3DA9 /* CafeDetailViewController.swift */,
+				54AFA92521BEA3B5006F3DA9 /* CafeTableViewController.swift */,
+				54AFA92621BEA3B5006F3DA9 /* CallViewController.swift */,
+				54AFA92721BEA3B5006F3DA9 /* MapViewController.swift */,
+			);
+			name = Controller;
+			path = ../../Cafegram2EN/Cafegram2EN/Controller;
 			sourceTree = "<group>";
 		};
 		936C86FF91C87EDA5C9FAE3E /* Pods */ = {
@@ -301,7 +418,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D892F921921B4200E90CD9 /* LaunchScreen.storyboard in Resources */,
+				54AFA90E21BEA362006F3DA9 /* Rubik-Regular.ttf in Resources */,
+				54AFA90821BEA362006F3DA9 /* Rubik-BoldItalic.ttf in Resources */,
 				32D892F621921B4200E90CD9 /* Assets.xcassets in Resources */,
+				54AFA90C21BEA362006F3DA9 /* Rubik-Medium.ttf in Resources */,
+				54AFA90B21BEA362006F3DA9 /* Rubik-LightItalic.ttf in Resources */,
+				54AFA90621BEA362006F3DA9 /* Rubik-BlackItalic.ttf in Resources */,
+				54AFA90421BEA362006F3DA9 /* OFL.txt in Resources */,
+				54AFA90921BEA362006F3DA9 /* Rubik-Italic.ttf in Resources */,
+				54AFA90721BEA362006F3DA9 /* Rubik-Bold.ttf in Resources */,
+				54AFA90D21BEA362006F3DA9 /* Rubik-MediumItalic.ttf in Resources */,
+				54AFA90A21BEA362006F3DA9 /* Rubik-Light.ttf in Resources */,
+				54AFA90521BEA362006F3DA9 /* Rubik-Black.ttf in Resources */,
 				32D892F121921B3E00E90CD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,17 +546,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54AFA92A21BEA3B6006F3DA9 /* CallViewController.swift in Sources */,
+				54AFA91C21BEA392006F3DA9 /* CafeDetailHeaderView.swift in Sources */,
+				54AFA91E21BEA392006F3DA9 /* CafeDetailMapCell.swift in Sources */,
 				32D892EE21921B3E00E90CD9 /* ViewController.swift in Sources */,
 				3277D6E221979CDC008C9CCF /* ProfileViewcontroller.swift in Sources */,
+				54AFA92021BEA392006F3DA9 /* CafeDetailTextCell.swift in Sources */,
 				3282B2252198B9FD00F37D38 /* MsgViewController.swift in Sources */,
 				3282B21F2198B96600F37D38 /* TipsViewController.swift in Sources */,
 				32D892F421921B3E00E90CD9 /* Bloodify.xcdatamodeld in Sources */,
+				54AFA92B21BEA3B6006F3DA9 /* MapViewController.swift in Sources */,
 				32D892EC21921B3E00E90CD9 /* AppDelegate.swift in Sources */,
+				54AFA91D21BEA392006F3DA9 /* CafeDetailIconTextCell.swift in Sources */,
+				54AFA91F21BEA392006F3DA9 /* CafeDetailSeparatorCell.swift in Sources */,
+				54AFA8F621BEA322006F3DA9 /* UINavigationController+Ext.swift in Sources */,
 				32131DD721963F9E00E3CF9C /* SignInViewController.swift in Sources */,
 				32DB1BA22197829B0059E589 /* signupViewController.swift in Sources */,
+				54AFA92821BEA3B6006F3DA9 /* CafeDetailViewController.swift in Sources */,
 				3282B2232198B9DA00F37D38 /* AcceuilViewController.swift in Sources */,
-				3282B2272198BA1600F37D38 /* BankViewController.swift in Sources */,
+				54AFA92121BEA392006F3DA9 /* CafeTableViewCell.swift in Sources */,
+				54AFA8F521BEA322006F3DA9 /* UIColor+Ext.swift in Sources */,
+				329F5BB921C94A74008AAAC8 /* Cafe.swift in Sources */,
 				32131DD521963F0C00E3CF9C /* RegisterViewController.swift in Sources */,
+				54AFA92921BEA3B6006F3DA9 /* CafeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
