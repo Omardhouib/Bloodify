@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 class ProfileDetailsViewController: UIViewController {
-     let URL_USER_MODIF = "http://192.168.70.129:8888/editprofile.php"
+     let URL_USER_MODIF = "http://192.168.70.129:8888/blood/editprofile.php"
     @IBOutlet weak var nom: UILabel!
     @IBOutlet weak var prenom: UILabel!
     @IBOutlet weak var email: UILabel!
@@ -18,6 +18,7 @@ class ProfileDetailsViewController: UIViewController {
     @IBOutlet weak var datedonation: UILabel!
     @IBOutlet weak var grpsanguin: UILabel!
     @IBOutlet weak var age: UILabel!
+    @IBOutlet weak var Idlabel: UILabel!
     
     @IBOutlet weak var textnom: UITextField!
     @IBOutlet weak var textprenom: UITextField!
@@ -52,6 +53,8 @@ class ProfileDetailsViewController: UIViewController {
         age.text = Age
         let Datedonation = defaultValues.string(forKey: "datedonation")
         datedonation.text = Datedonation
+        let id = defaultValues.string(forKey: "Id")
+        Idlabel.text = id
         // Do any additional setup after loading the view.
     }
     
@@ -67,12 +70,13 @@ class ProfileDetailsViewController: UIViewController {
         
         //View variables
         
-        
+        let defaultValues = UserDefaults.standard
+        let id = defaultValues.integer(forKey: "Id")
         //creating parameters for the post request
         let parameters: Parameters = ["nom": textnom.text!,
                                       "prenom": textprenom.text!,
                                       "Email": textemail.text!,
-                                      "tel": texttel.text!,"grpsanguin": textgrpsanguin.text!,"region": textregion.text!,"age": textage.text!,"datedonation": textdatedonation.text!,
+                                      "tel": texttel.text!,"grpsanguin": textgrpsanguin.text!,"region": textregion.text!,"age": textage.text!,"datedonation": textdatedonation.text!,"Id": id,
                                       ]
         print ("jhjhjh")
         //Sending http post request
@@ -83,20 +87,16 @@ class ProfileDetailsViewController: UIViewController {
                 //printing response
                 print ("hello")
                 print(response)
-                
+               
                 //getting the json value from the server
                 if let result = response.result.value {
                     
                     //converting it as NSDictionary
-                    let jsonData = result as! NSDictionary
-                    if(!(jsonData.value(forKey: "error") as! Bool)){
-                     
-                         let defaultValues = UserDefaults.standard
-                        let id = defaultValues.string(forKey: "Email")
-    
-                    }else{
                     
-                        self.displayMessage(userMessage: jsonData.value(forKey: "message") as! String)}
+                    let jsonData = result as! NSDictionary
+                    
+                    
+                        self.displayMessage(userMessage: jsonData.value(forKey: "message") as! String)
                 }
                 
         }
