@@ -31,15 +31,16 @@ class SignInViewController: UIViewController {
         
         //if user is already logged in switching to profile screen
        if defaultValues.string(forKey: "Email") != nil{
-            let profileViewController = self.storyboard?.instantiateViewController(withIdentifier: "ProfileViewcontroller") as! ProfileViewcontroller
-            self.navigationController?.pushViewController(profileViewController, animated: true)
+           self.continueToHome()
             
         }
 
         // Do any additional setup after loading the view.
     }
     
-
+    func continueToHome() {
+        performSegue(withIdentifier: "toHome", sender: self)
+    }
     @IBAction func signin(_ sender: UIButton) {
         print("goood signin")
         
@@ -67,7 +68,7 @@ class SignInViewController: UIViewController {
                         let user = jsonData.value(forKey: "user") as! NSDictionary
                         
                         //getting user values
-                      //  let userId = user.value(forKey: "Id") as! Int
+                        let userId = user.value(forKey: "Id") as! Int
                         let nom = user.value(forKey: "nom") as! String
                         let prenom = user.value(forKey: "prenom") as! String
                         let Email = user.value(forKey: "Email") as! String
@@ -79,7 +80,7 @@ class SignInViewController: UIViewController {
                         let password = user.value(forKey: "password") as! String
                         
                         //saving user values to defaults
-                       // self.defaultValues.set(userId, forKey: "userId")
+                        self.defaultValues.set(userId, forKey: "userId")
                         self.defaultValues.set(nom, forKey: "nom")
                         self.defaultValues.set(prenom, forKey: "prenom")
                         self.defaultValues.set(Email, forKey: "Email")
@@ -91,10 +92,10 @@ class SignInViewController: UIViewController {
                         self.defaultValues.set(password, forKey: "password")
                         
                         //switching the screen
-                       /* let profileViewController = self.storyboard?.instantiateViewController(withIdentifier: "ProfileViewcontroller") as! ProfileViewcontroller
-                        self.navigationController?.pushViewController(profileViewController, animated: true)
-                        
-                        self.dismiss(animated: false, completion: nil)*/
+                    /*   let profileViewController = self.storyboard?.instantiateViewController(withIdentifier: "ProfileViewcontroller") as! ProfileViewcontroller
+                        self.navigationController?.pushViewController(profileViewController, animated: true)*/
+                      self.continueToHome()
+                        //self.dismiss(animated: false, completion: nil)
                     }else{
                         //error message in case of invalid credential
                         

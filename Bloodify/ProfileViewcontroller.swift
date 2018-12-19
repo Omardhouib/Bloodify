@@ -21,6 +21,9 @@ class ProfileViewcontroller: UIViewController {
     @IBOutlet weak var prenom: UILabel!
     
     @IBOutlet weak var nom: UILabel!
+    
+    func continueToHome() {
+        performSegue(withIdentifier: "toHome", sender: self)}
     @IBAction func Logout(_ sender: UIButton) {
     
     
@@ -38,8 +41,8 @@ class ProfileViewcontroller: UIViewController {
         super.viewDidLoad()
         
         //hiding back button
-      /* let backButton = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: navigationController, action: nil)
-        navigationItem.leftBarButtonItem = backButton*/
+       let backButton = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: navigationController, action: nil)
+        navigationItem.leftBarButtonItem = backButton
         //getting user data from defaults
         let defaultValues = UserDefaults.standard
         let name = defaultValues.string(forKey: "nom")
