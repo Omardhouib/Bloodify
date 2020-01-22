@@ -8,17 +8,46 @@
 
 import UIKit
 import CoreData
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+   
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let navigationBarAppearace = UINavigationBar.appearance()
+        
+        navigationBarAppearace.tintColor = UIColor.white
+        navigationBarAppearace.barTintColor = UIColor.white
+        UNUserNotificationCenter.current().requestAuthorization(options:[.badge,.alert,.sound])
+        { (sucess, error) in
+            if error != nil{
+                print("notification not working  ")
+            }
+            else {
+                
+                print("notification work")
+            }
+        }
         return true
     }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        let deviceTokenString = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
+            print("success in registering for remote notifications with token \(deviceTokenString)")
+         }
+    
+     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print("failed to register for remote notifications: \(error.localizedDescription)")
+         }
+    
+     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+        print("Received push notification: \(userInfo)")
+             let aps = userInfo["aps"] as! [String: Any]
+             print("\(aps)")
+         }
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
